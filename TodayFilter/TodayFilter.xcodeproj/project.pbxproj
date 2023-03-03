@@ -76,14 +76,22 @@
 			children = (
 				0EF6AC0529B1ACF7004782DA /* AppDelegate.swift */,
 				0EF6AC0729B1ACF7004782DA /* SceneDelegate.swift */,
-				0EF6AC1929B1AE45004782DA /* EmojiViewController.swift */,
-				0EF6AC1B29B1B9BB004782DA /* EmojiNode.swift */,
+				0EF6AC1F29B1CBEC004782DA /* EmojiFliter */,
 				0EF6AC1D29B1BCC8004782DA /* extension+String.swift */,
 				0EF6AC0E29B1ACF9004782DA /* Assets.xcassets */,
 				0EF6AC1029B1ACF9004782DA /* LaunchScreen.storyboard */,
 				0EF6AC1329B1ACF9004782DA /* Info.plist */,
 			);
 			path = TodayFilter;
+			sourceTree = "<group>";
+		};
+		0EF6AC1F29B1CBEC004782DA /* EmojiFliter */ = {
+			isa = PBXGroup;
+			children = (
+				0EF6AC1929B1AE45004782DA /* EmojiViewController.swift */,
+				0EF6AC1B29B1B9BB004782DA /* EmojiNode.swift */,
+			);
+			path = EmojiFliter;
 			sourceTree = "<group>";
 		};
 		F0B4CE6A3306D44458C180E6 /* Frameworks */ = {
