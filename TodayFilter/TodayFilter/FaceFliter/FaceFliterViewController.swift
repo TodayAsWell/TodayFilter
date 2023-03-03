@@ -73,17 +73,18 @@ class ViewController: UIViewController, ARSCNViewDelegate, ARSessionDelegate {
     }
 
     @objc func changeFilterColor(_ sender: UISegmentedControl) {
+        var newMaterial = SCNMaterial()
         switch sender.selectedSegmentIndex {
         case 0:
-            material.diffuse.contents = UIColor.red
+            newMaterial.diffuse.contents = UIColor.red
         case 1:
-            material.diffuse.contents = UIColor.green
+            newMaterial.diffuse.contents = UIColor.green
         case 2:
-            material.diffuse.contents = UIColor.blue
+            newMaterial.diffuse.contents = UIColor.blue
         default:
             break
         }
-        faceNode.geometry?.firstMaterial = material
+        faceNode.geometry?.firstMaterial = newMaterial
     }
 
     override func viewWillAppear(_ animated: Bool) {
