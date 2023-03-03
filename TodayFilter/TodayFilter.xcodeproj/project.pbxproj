@@ -12,6 +12,8 @@
 		0EF6AC0F29B1ACF9004782DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF6AC0E29B1ACF9004782DA /* Assets.xcassets */; };
 		0EF6AC1229B1ACF9004782DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF6AC1029B1ACF9004782DA /* LaunchScreen.storyboard */; };
 		0EF6AC1A29B1AE45004782DA /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6AC1929B1AE45004782DA /* EmojiViewController.swift */; };
+		0EF6AC1C29B1B9BB004782DA /* EmojiNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6AC1B29B1B9BB004782DA /* EmojiNode.swift */; };
+		0EF6AC1E29B1BCC8004782DA /* extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6AC1D29B1BCC8004782DA /* extension+String.swift */; };
 		4C680D3F87FCFFCD69DEBD5E /* Pods_TodayFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0C294D8E07B56887176D3D /* Pods_TodayFilter.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		0EF6AC1129B1ACF9004782DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EF6AC1329B1ACF9004782DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EF6AC1929B1AE45004782DA /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
+		0EF6AC1B29B1B9BB004782DA /* EmojiNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiNode.swift; sourceTree = "<group>"; };
+		0EF6AC1D29B1BCC8004782DA /* extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "extension+String.swift"; path = "/Users/junha/Desktop/TodayFilter/TodayFilter/TodayFilter/extension+String.swift"; sourceTree = "<absolute>"; };
 		104248A04C3361B3FF6324BC /* Pods-TodayFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayFilter.release.xcconfig"; path = "Target Support Files/Pods-TodayFilter/Pods-TodayFilter.release.xcconfig"; sourceTree = "<group>"; };
 		1C0C294D8E07B56887176D3D /* Pods_TodayFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		321A2A760291EC8FC67B39F7 /* Pods-TodayFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayFilter.debug.xcconfig"; path = "Target Support Files/Pods-TodayFilter/Pods-TodayFilter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				0EF6AC0529B1ACF7004782DA /* AppDelegate.swift */,
 				0EF6AC0729B1ACF7004782DA /* SceneDelegate.swift */,
 				0EF6AC1929B1AE45004782DA /* EmojiViewController.swift */,
+				0EF6AC1B29B1B9BB004782DA /* EmojiNode.swift */,
+				0EF6AC1D29B1BCC8004782DA /* extension+String.swift */,
 				0EF6AC0E29B1ACF9004782DA /* Assets.xcassets */,
 				0EF6AC1029B1ACF9004782DA /* LaunchScreen.storyboard */,
 				0EF6AC1329B1ACF9004782DA /* Info.plist */,
@@ -202,8 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF6AC1C29B1B9BB004782DA /* EmojiNode.swift in Sources */,
 				0EF6AC1A29B1AE45004782DA /* EmojiViewController.swift in Sources */,
 				0EF6AC0629B1ACF7004782DA /* AppDelegate.swift in Sources */,
+				0EF6AC1E29B1BCC8004782DA /* extension+String.swift in Sources */,
 				0EF6AC0829B1ACF7004782DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
