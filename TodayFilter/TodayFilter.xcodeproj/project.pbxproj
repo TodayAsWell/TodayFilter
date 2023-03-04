@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0E41A8A329B210180045197F /* HiarColorFliterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E41A8A229B210180045197F /* HiarColorFliterViewController.swift */; };
+		0E9532BD29B3384E00260CBC /* EmojiFullFliterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9532BC29B3384E00260CBC /* EmojiFullFliterViewController.swift */; };
+		0E9532BF29B355A700260CBC /* ExEmojiFullFliterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9532BE29B355A700260CBC /* ExEmojiFullFliterViewController.swift */; };
+		0E9532C129B356D300260CBC /* Extension+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9532C029B356D300260CBC /* Extension+Collection.swift */; };
 		0EF6AC0629B1ACF7004782DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6AC0529B1ACF7004782DA /* AppDelegate.swift */; };
 		0EF6AC0829B1ACF7004782DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6AC0729B1ACF7004782DA /* SceneDelegate.swift */; };
 		0EF6AC0F29B1ACF9004782DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF6AC0E29B1ACF9004782DA /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		0E41A8A229B210180045197F /* HiarColorFliterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiarColorFliterViewController.swift; sourceTree = "<group>"; };
+		0E9532BC29B3384E00260CBC /* EmojiFullFliterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiFullFliterViewController.swift; sourceTree = "<group>"; };
+		0E9532BE29B355A700260CBC /* ExEmojiFullFliterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExEmojiFullFliterViewController.swift; sourceTree = "<group>"; };
+		0E9532C029B356D300260CBC /* Extension+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Collection.swift"; sourceTree = "<group>"; };
 		0EF6AC0229B1ACF7004782DA /* TodayFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF6AC0529B1ACF7004782DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EF6AC0729B1ACF7004782DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,16 @@
 			path = HiarColorFliter;
 			sourceTree = "<group>";
 		};
+		0E9532BB29B3382900260CBC /* EmojiFullFliter */ = {
+			isa = PBXGroup;
+			children = (
+				0E9532BC29B3384E00260CBC /* EmojiFullFliterViewController.swift */,
+				0E9532BE29B355A700260CBC /* ExEmojiFullFliterViewController.swift */,
+				0E9532C029B356D300260CBC /* Extension+Collection.swift */,
+			);
+			path = EmojiFullFliter;
+			sourceTree = "<group>";
+		};
 		0EF6ABF929B1ACF7004782DA = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +102,7 @@
 			children = (
 				0EF6AC0529B1ACF7004782DA /* AppDelegate.swift */,
 				0EF6AC0729B1ACF7004782DA /* SceneDelegate.swift */,
+				0E9532BB29B3382900260CBC /* EmojiFullFliter */,
 				0E41A8A429B335F10045197F /* HiarColorFliter */,
 				0EF6AC1F29B1CBEC004782DA /* EmojiFliter */,
 				0EF6AC1D29B1BCC8004782DA /* extension+String.swift */,
@@ -227,11 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9532BD29B3384E00260CBC /* EmojiFullFliterViewController.swift in Sources */,
+				0E9532C129B356D300260CBC /* Extension+Collection.swift in Sources */,
 				0EF6AC1C29B1B9BB004782DA /* EmojiNode.swift in Sources */,
 				0EF6AC1A29B1AE45004782DA /* EmojiBlingViewController.swift in Sources */,
 				0EF6AC0629B1ACF7004782DA /* AppDelegate.swift in Sources */,
 				0E41A8A329B210180045197F /* HiarColorFliterViewController.swift in Sources */,
 				0EF6AC1E29B1BCC8004782DA /* extension+String.swift in Sources */,
+				0E9532BF29B355A700260CBC /* ExEmojiFullFliterViewController.swift in Sources */,
 				0EF6AC0829B1ACF7004782DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
