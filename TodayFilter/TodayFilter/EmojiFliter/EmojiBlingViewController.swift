@@ -5,9 +5,9 @@ class EmojiBlingViewController: UIViewController {
 
     let sceneView = ARSCNView()
     let noseOptions = [""]
-    let eyeOptions = ["🔥"]
-    let mouthOptions = ["", "👅", "❤️", " "]
-    let hatOptions = ["🚬", "🎩", "🧢", "⛑", "👒", " "]
+    let eyeOptions = ["👁️"]
+    let mouthOptions = ["🚬", "👅", "❤️", " "]
+    let hatOptions = ["", "🎩", "🧢", "⛑", " 👒", " "]
     let features = ["nose", "leftEye", "rightEye", "mouth", "hat"]
     let featureIndices = [[9], [1064], [42], [24, 25], [20]]
 
