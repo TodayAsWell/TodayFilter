@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E41A8A329B210180045197F /* HiarColorFliterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E41A8A229B210180045197F /* HiarColorFliterViewController.swift */; };
-		0E9532BD29B3384E00260CBC /* EmojiFullFliterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9532BC29B3384E00260CBC /* EmojiFullFliterViewController.swift */; };
+		0E9532BD29B3384E00260CBC /* FaceAIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9532BC29B3384E00260CBC /* FaceAIViewController.swift */; };
 		0E9532BF29B355A700260CBC /* ExEmojiFullFliterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9532BE29B355A700260CBC /* ExEmojiFullFliterViewController.swift */; };
 		0E9532C129B356D300260CBC /* Extension+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9532C029B356D300260CBC /* Extension+Collection.swift */; };
 		0EF6AC0629B1ACF7004782DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6AC0529B1ACF7004782DA /* AppDelegate.swift */; };
@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		0E41A8A229B210180045197F /* HiarColorFliterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiarColorFliterViewController.swift; sourceTree = "<group>"; };
-		0E9532BC29B3384E00260CBC /* EmojiFullFliterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiFullFliterViewController.swift; sourceTree = "<group>"; };
+		0E9532BC29B3384E00260CBC /* FaceAIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAIViewController.swift; sourceTree = "<group>"; };
 		0E9532BE29B355A700260CBC /* ExEmojiFullFliterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExEmojiFullFliterViewController.swift; sourceTree = "<group>"; };
 		0E9532C029B356D300260CBC /* Extension+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Collection.swift"; sourceTree = "<group>"; };
 		0EF6AC0229B1ACF7004782DA /* TodayFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +72,7 @@
 		0E9532BB29B3382900260CBC /* EmojiFullFliter */ = {
 			isa = PBXGroup;
 			children = (
-				0E9532BC29B3384E00260CBC /* EmojiFullFliterViewController.swift */,
+				0E9532BC29B3384E00260CBC /* FaceAIViewController.swift */,
 				0E9532BE29B355A700260CBC /* ExEmojiFullFliterViewController.swift */,
 				0E9532C029B356D300260CBC /* Extension+Collection.swift */,
 			);
@@ -244,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E9532BD29B3384E00260CBC /* EmojiFullFliterViewController.swift in Sources */,
+				0E9532BD29B3384E00260CBC /* FaceAIViewController.swift in Sources */,
 				0E9532C129B356D300260CBC /* Extension+Collection.swift in Sources */,
 				0EF6AC1C29B1B9BB004782DA /* EmojiNode.swift in Sources */,
 				0EF6AC1A29B1AE45004782DA /* EmojiBlingViewController.swift in Sources */,

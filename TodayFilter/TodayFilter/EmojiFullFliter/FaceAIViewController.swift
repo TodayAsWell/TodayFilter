@@ -8,10 +8,10 @@
 import UIKit
 import ARKit
 
-class EmojiFullFliterViewController: UIViewController {
+class FaceAIViewController: UIViewController {
     
     let sceneView = ARSCNView()
-    let fullFaceOptions = ["😀", "😂", "😍", "😜", "😎", "🤔", "😷", "😱", "👽"]
+    let fullFaceOptions = [""]
     let features = ["fullFace"]
     let featureIndices = [[0]]
     
@@ -63,7 +63,7 @@ class EmojiFullFliterViewController: UIViewController {
     }
 }
 
-extension EmojiFullFliterViewController: ARSCNViewDelegate {
+extension FaceAIViewController: ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         guard let faceAnchor = anchor as? ARFaceAnchor,
               let device = sceneView.device else { return nil }
@@ -71,10 +71,7 @@ extension EmojiFullFliterViewController: ARSCNViewDelegate {
         let node = SCNNode(geometry: faceGeometry)
         node.geometry?.firstMaterial?.fillMode = .lines
         
-        node.geometry?.firstMaterial?.transparency = 0.2
-        let fullFaceNode = EmojiFullNode(with: fullFaceOptions)
-        fullFaceNode.name = "fullFace"
-        node.addChildNode(fullFaceNode)
+        node.geometry?.firstMaterial?.transparency = 10
         
         updateFeatures(for: node, using: faceAnchor)
         return node
